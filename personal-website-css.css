@@ -47,8 +47,7 @@ header {
 }
 
 .profile-picture {
-    width: 200px;
-    height: 300px;
+    
     border-radius: 50%;
     border: 5px solid white;
     margin-bottom: 1rem;
