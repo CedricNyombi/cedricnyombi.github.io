@@ -1,4 +1,4 @@
-/* Reset and base styles */
+/* Everything */
 * {
     margin: 0;
     padding: 0;
@@ -115,7 +115,7 @@ h2 {
 #hobbies .card-container {
     display: flex;
     justify-content: center;
-    gap: 100px; /* Increased gap between hobby cards */
+    gap: 100px; 
 }
 
 #hobbies .card-image {
@@ -164,7 +164,6 @@ footer {
     color: white;
 }
 
-/* Responsive design */
 @media (max-width: 768px) {
     .nav-menu {
         flex-direction: column;
@@ -182,7 +181,7 @@ footer {
     #hobbies .card-container {
         flex-direction: column;
         align-items: center;
-        gap: 2rem; /* Reset gap for mobile view */
+        gap: 2rem; 
     }
 }
 
